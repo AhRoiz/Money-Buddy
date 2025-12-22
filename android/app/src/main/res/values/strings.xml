@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">Money Buddy</string>
-    <string name="title_activity_main">Money Buddy</string>
-    <string name="package_name">com.moneybuddy.app</string>
-    <string name="custom_url_scheme">com.moneybuddy.app</string>
-</resources>

@@ -38,7 +38,7 @@ const INCOME_CATEGORIES = {
   'Hadiah & Keberuntungan': ['Undian / Giveaway', 'Lomba / Kompetisi', 'Beasiswa', 'Hadiah Prestasi'],
   'Bantuan & Transfer': ['Dari Orang Tua/Keluarga', 'Tunjangan', 'Subsidi', 'Zakat/Sedekah (Masuk)'],
   'Sewa Aset': ['Sewa Rumah / Kos', 'Sewa Kendaraan', 'Sewa Alat', 'Monetisasi Web / Channel'],
-  'Lainnya / Berisiko': ['Aktivitas Berisiko', 'Lainnya'] 
+  'Lainnya': ['Lainnya'] 
 };
 
 const COLORS = ['#8b5cf6', '#10b981', '#f59e0b', '#0ea5e9', '#f97316', '#ef4444', '#6366f1', '#ec4899'];
@@ -68,7 +68,7 @@ const formatRupiah = (number) => {
 
 // --- 2. KOMPONEN UTAMA ---
 
-export default function MoneyPlusApp() {
+export default function MoneyBuddyApp() {
   const [activeTab, setActiveTab] = useState('beranda');
   const [transactions, setTransactions] = useState(INITIAL_DATA);
   const [isModalOpen, setIsModalOpen] = useState(false);
